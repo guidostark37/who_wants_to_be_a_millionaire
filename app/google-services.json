@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "161734453672",
+    "project_id": "who-wants-to-be-a-millio-d90e0",
+    "storage_bucket": "who-wants-to-be-a-millio-d90e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161734453672:android:2b919d053fc5103ecd959d",
+        "android_client_info": {
+          "package_name": "com.example.who_wants_to_be_a_millionaire"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ2roem7IBF9A0f3DFc8MHUat-Rj5s6AY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
