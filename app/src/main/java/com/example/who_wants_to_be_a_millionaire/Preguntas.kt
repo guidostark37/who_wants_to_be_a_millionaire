@@ -1,5 +1,6 @@
 package com.example.who_wants_to_be_a_millionaire
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -18,16 +19,31 @@ class Preguntas : AppCompatActivity() {
     lateinit var binding: ActivityPreguntasBinding
     lateinit var db:FirebaseDatabase
     lateinit var dataref:DatabaseReference
+    @SuppressLint("ResourceAsColor")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityPreguntasBinding.inflate(layoutInflater)
         setContentView(binding.root)
         db = FirebaseDatabase.getInstance()
         dataref =db.getReference("datos")
+
         traer()
+
         binding.apply {
             txtopcion1.setOnClickListener {
-                txtopcion1.setBackgroundResource(R.drawable.dorado)
+                txtopcion1.setBackgroundResource(R.drawable.correcto)
+                txtopcion1.setTextColor(R.color.black)
+            }
+            txtopcion2.setOnClickListener {
+                txtopcion2.setBackgroundResource(R.drawable.incorrecto)
+                txtopcion2.setTextColor(R.color.black)
+            }
+            txtopcion3.setOnClickListener {
+                txtopcion3.setBackgroundResource(R.drawable.seleccionado)
+                txtopcion3.setTextColor(R.color.black)
+            }
+            txtopcion4.setOnClickListener {
+
             }
         }
     }
