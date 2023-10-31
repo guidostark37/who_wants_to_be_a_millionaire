@@ -31,62 +31,65 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2">
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/txtpregunta"
+            android:layout_width="370dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/dorado"
+            android:paddingTop="10sp"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:translationX="15dp" />
+
+        <TextView
+            android:id="@+id/txtopcion1"
             android:layout_width="370dp"
             android:layout_height="40dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/corners"
             android:paddingTop="10sp"
-            android:text="TextView"
+            android:textColor="@color/white"
             android:textAlignment="center"
             android:translationX="15dp" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/txtopcion2"
             android:layout_width="370dp"
             android:layout_height="40dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/corners"
             android:paddingTop="10sp"
-            android:text="TextView"
+            android:text=""
+            android:textColor="@color/white"
             android:textAlignment="center"
             android:translationX="15dp" />
 
         <TextView
-            android:id="@+id/textView4"
-            android:layout_width="370dp"
-            android:layout_height="40dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/corners"
-            android:paddingTop="10sp"
-            android:text="TextView"
-            android:textAlignment="center"
-            android:translationX="15dp" />
-
-        <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/txtopcion3"
             android:layout_width="370dp"
             android:layout_height="40dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/corners"
             android:paddingTop="10dp"
-            android:text="TextView"
+            android:text=""
+            android:textColor="@color/white"
             android:textAlignment="center"
             android:translationX="15dp" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/txtopcion4"
             android:layout_width="370dp"
             android:layout_height="40dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/corners"
             android:paddingTop="10sp"
-            android:text="TextView"
+            android:text=""
+            android:textColor="@color/white"
             android:textAlignment="center"
             android:translationX="15dp" />
     </LinearLayout>
