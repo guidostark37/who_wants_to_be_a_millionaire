@@ -25,6 +25,11 @@ class Preguntas : AppCompatActivity() {
         db = FirebaseDatabase.getInstance()
         dataref =db.getReference("datos")
         traer()
+        binding.apply {
+            txtopcion1.setOnClickListener {
+                txtopcion1.setBackgroundResource(R.drawable.dorado)
+            }
+        }
     }
     fun traer(){
         dataref.addValueEventListener(object : ValueEventListener {
