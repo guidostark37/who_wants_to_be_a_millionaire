@@ -172,21 +172,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/muestra8" />
 
-    <Button
-        android:id="@+id/btnplay"
-        android:layout_width="259dp"
-        android:layout_height="53dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginBottom="32dp"
-        android:backgroundTint="@color/blue"
-        android:text="Play"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/muestra10"
-        app:layout_constraintVertical_bias="0.428" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
