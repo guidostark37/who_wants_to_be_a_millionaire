@@ -100,7 +100,7 @@ class Preguntas : AppCompatActivity() {
                     txtopcion2.setOnClickListener {
                         txtopcion2.setBackgroundResource(R.drawable.seleccionado)
                         if (txtopcion2.text ==respuesta){
-                            guardar.putString("premio",1.toString()).commit()
+                            guardar.putString("premio","gano").commit()
                             txtopcion2.setBackgroundResource(R.drawable.correcto)
                         }else{
                             txtopcion2.setBackgroundResource(R.drawable.incorrecto)
@@ -111,7 +111,7 @@ class Preguntas : AppCompatActivity() {
                     txtopcion3.setOnClickListener {
                         txtopcion3.setBackgroundResource(R.drawable.seleccionado)
                         if (txtopcion3.text ==respuesta){
-                            guardar.putString("premio",1.toString()).commit()
+                            guardar.putString("premio","gano").commit()
                             txtopcion3.setBackgroundResource(R.drawable.correcto)
                         }else{
                             txtopcion3.setBackgroundResource(R.drawable.incorrecto)
@@ -122,7 +122,7 @@ class Preguntas : AppCompatActivity() {
                     txtopcion4.setOnClickListener {
                         txtopcion4.setBackgroundResource(R.drawable.seleccionado)
                         if (txtopcion4.text ==respuesta){
-                            guardar.putString("premio",1.toString()).commit()
+                            guardar.putString("premio","gano").commit()
                             txtopcion4.setBackgroundResource(R.drawable.correcto)
                         }else{
                             txtopcion4.setBackgroundResource(R.drawable.incorrecto)

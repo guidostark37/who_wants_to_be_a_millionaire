@@ -27,31 +27,31 @@ class Home : AppCompatActivity() {
                 var prueba = getSharedPreferences("respuesta", Context.MODE_PRIVATE).getString("premio", "")
                 if (prueba!=""){
                     punto+=1
+                    if (punto>0){
+                        binding.muestra10.setBackgroundResource(R.drawable.correcto)
+                    }else if (punto>1){
+                        binding.muestra9.setBackgroundResource(R.drawable.correcto)
+                    }else if (punto>2){
+                        binding.muestra9.setBackgroundResource(R.drawable.correcto)
+                    }else if (punto>3){
+                        binding.muestra8.setBackgroundResource(R.drawable.correcto)
+                    }else if (punto>4){
+                        binding.muestra7.setBackgroundResource(R.drawable.correcto)
+                    }else if (punto>5){
+                        binding.muestra6.setBackgroundResource(R.drawable.correcto)
+                    }else if (punto>6){
+                        binding.muestra5.setBackgroundResource(R.drawable.correcto)
+                    }else if (punto>7){
+                        binding.muestra9.setBackgroundResource(R.drawable.correcto)
+                    }else if (punto>8){
+                        binding.muestra9.setBackgroundResource(R.drawable.correcto)
+                    }else if (punto>9){
+                        binding.muestra9.setBackgroundResource(R.drawable.correcto)
+                    }else{
+                        Toast.makeText(this@Home, "Tu puntuacion es: ${punto}", Toast.LENGTH_SHORT).show()
+                    }
                 }
 
-                if (punto>0){
-                    binding.muestra10.setBackgroundResource(R.drawable.correcto)
-                }else if (punto>1){
-                    binding.muestra9.setBackgroundResource(R.drawable.correcto)
-                }else if (punto>2){
-                    binding.muestra9.setBackgroundResource(R.drawable.correcto)
-                }else if (punto>3){
-                    binding.muestra8.setBackgroundResource(R.drawable.correcto)
-                }else if (punto>4){
-                    binding.muestra7.setBackgroundResource(R.drawable.correcto)
-                }else if (punto>5){
-                    binding.muestra6.setBackgroundResource(R.drawable.correcto)
-                }else if (punto>6){
-                    binding.muestra5.setBackgroundResource(R.drawable.correcto)
-                }else if (punto>7){
-                    binding.muestra9.setBackgroundResource(R.drawable.correcto)
-                }else if (punto>8){
-                    binding.muestra9.setBackgroundResource(R.drawable.correcto)
-                }else if (punto>9){
-                    binding.muestra9.setBackgroundResource(R.drawable.correcto)
-                }else{
-                    Toast.makeText(this@Home, "Tu puntuacion es: ${punto}", Toast.LENGTH_SHORT).show()
-                }
 
             }
 
